@@ -18,7 +18,7 @@
 	  font-family: arial, verdana, helvetica, sans-serif;
   	font-size: 1.5em;
   	font-weight: bold;
-  	color: #ccc;
+  	color: #000;
   	clear: both;
   	text-align: right;
 	}
@@ -29,6 +29,7 @@
 		color: #fff;
 		background-color: #CC9900;
 	  padding: 0.3em;
+	  color: #000;
 	}
 	
 	.t3{
@@ -54,7 +55,7 @@
 	  font-family: arial, helvetica, sans-serif;
 	  font-weight: bold;
 	  font-size: 3em;
-		color: #CC9900;
+		color: #000;
 	}
 	
 	#aceitera{
@@ -69,7 +70,7 @@
 		font-weight: bold;
 	  font-size: 1.2em;
 		font-style: italic;
-		color: #999;
+		color: #000;
 	}	
 	
 	
@@ -155,6 +156,7 @@
     width: 10em;
     float: left;
 		text-align: right;
+	color: #000;
   }
 	
 	#submit{
@@ -178,6 +180,7 @@
 	  border-top: 3px solid #ccc;
 		padding: 1em;
 		text-align: center;
+		color: #000;
 	}
 
 
@@ -185,3 +188,7 @@
 *          Mejoras           *
 ************************************************/
 ul {list-style: none;}
+
+ul li p {color: #000;}
+
+table {color: #000;}
